@@ -1,0 +1,96 @@
+footer {
+	z-index: 100;
+}
+.color-select {
+	color: #BF8D30 !important;
+}
+.slider-cover {
+	/*position: fixed !important;
+    height: 100% !important;
+    min-width: 100% !important;*/
+}
+.buttons-social {
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 1px solid white;
+	background-color: white;
+}
+.buttons-social i {
+	text-align: center;
+	color: black;
+	font-size: 25px;
+	line-height: 40px;
+	outline: none;
+	display: inline-block;
+}
+.logos-services {
+	width: 45px;
+	height: auto;
+}
+.service-title {
+    font-size: 17px;
+    line-height: 1.4;
+}
+ul.list-inline {
+	margin-bottom:30px;
+	margin-top:0;
+	text-align: center;
+}
+ul.social-buttons {
+	margin: auto;
+}
+ul.social-buttons li a {
+	text-align: center;
+	display:block;
+	background-color: white;
+	height:40px;
+	width:40px;
+	border-radius:100%;
+	font-size:20px;
+	line-height:40px;
+	color: #262626 !important;
+	outline:none;
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	-o-transition:all .3s;
+	transition:all .3s;
+}
+ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
+	background-color:#BF8D30;
+}
+@media (max-width: 1400px) {
+	#adhoc-caption-services {
+		margin-top: 200px !important;
+	}
+	#adhoc-caption-partners {
+		margin-top: 250px !important;
+	}
+	#adhoc-caption-projects, #adhoc-caption-contact {
+		margin-top: 220px !important;
+	}
+}
+@media (max-width: 1199px) {
+	ul.navbar-nav {
+		left: -40px;
+	}
+	#main-navbar-container ul li a {
+		font-size: 12px !important;
+	}
+	#main-navbar-container div a img  {
+		margin-top: 10px;
+		width: 220px;
+	}
+	.navbar-header img {
+		width: 200px;
+	}
+}
+.navbar-header img {
+	margin-top: 15px;
+}
+.fixed .navbar-brand img {
+  margin-right: 30px;
+  margin-top: 0px !important;
+}
