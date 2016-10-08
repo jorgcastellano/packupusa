@@ -96,6 +96,9 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 .background-text-slide {
     width: 750px !important;
 }
+.background-text-slide-right {
+    width: 750px !important;
+	}
 .navbar-header img {
 	margin-top: 15px;
 }
